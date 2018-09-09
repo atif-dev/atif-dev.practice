@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+	<h1>Sign Up Page</h1>
+
+	<form method="post">
+
+		<label for="username">First Name</label>
+		<input type="text" name="First_name" value="" required placeholder="username"><br>
+		<label for="last_name">Last Name</label>
+		<input type="text" name="last_name" required placeholder="last name">
+<br>
+		<label for="password">Password</label>
+		<input type="password" name="password" required placeholder="password">
+<br>
+		<label for="email">Email</label>
+		<input type="email" name="email" placeholder="abc123@gmail.com" required>
+<br>
+		<label for="date_of_birth">Date of Birth</label>
+		<input type="date" name="date_of_birth" required>
+<br>
+		<label for="gender">Gender</label><br>
+		<input type="radio" name="gender" value="Male">Male<br>
+		<input type="radio" name="gender" value="Female">Female<br>		
+		<input type="radio" name="gender" value="Other">Other
+<br>
+		<label for="pets">Pets</label><br>
+		<input type="checkbox" name="Cat">Cat<br>
+		<input type="checkbox" name="Dog">Dog
+<br>
+		<label for="drop_down">Cars</label>
+		<select name="Cars">
+			
+			<option value="Mitsubishi">Mitsubishi</option>
+			<option value="Mitsubishi">Ferrari</option>
+			<option value="Audi">Audi</option>
+
+		</select>
+<br>
+		<label for="register"></label>
+		<input type="submit" name="register" value="Sign Up">
+		<input type="reset" name="">		
+	</form>
+
+</body>
+</html>
+
+<!-- Querry string example:
+
+?First_name=sds
+&last_name=sadsa
+&password=dsadsa
+&email=atif_20_0%40hotmail.com
+&date_of_birth=2018-09-04
+&gender=Male
+&Dog=on
+&Cars=Mitsubishi
+&register=Sign+Up -->
